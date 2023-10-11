@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Javascript</title>
+</head>
+<body>
+    <h1>Salve Javascript</h1>
+    <span class="nome"></span><br>
+    <span class="nasc"></span><br>
+
+
+    <script>
+            /* Declarando uma variável (caixinha) */
+        var nome;
+        /* Associando uma função á uma variável */
+        var nome = document.querySelector('.nome')
+        nome.innerHTML = prompt('Escreva seu nome')
+
+        var nasc = document.querySelector('.nasc')
+        nasc.innerHTML = prompt('Informe sua data de nascimento')
+    </script>
+</body>
+</html>
