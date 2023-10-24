@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ficar rico</title>
+</head>
+<body>
+    <script>
+        let nome, produto, valor, quantidade;
+        nome = prompt('Qual seu nome?')
+        produto = prompt('Qual produto você quer comprar?')
+        valor = prompt('Qual o valor do seu produto?')
+        quantidade = prompt('Vai parcelar em quantas vezes?')
+
+        window.document.write('Olá' + ' ' + nome + ', ' + 'você comprou' + ' '+ produto + ' '+ '<br>')
+        document.write('O valor do seu produto é'+ ' '+ 'R$' + valor +', '+ 'e parcelou em' +' '+ quantidade + ' '  + 'vezes')
+        document.write('<br>' + '<br>')
+        document.write('Situação...')
+        document.write(valor + '/' + quantidade '=' + `${valor+quantidade}`)
+        
+    </script>
+    
+</body>
+</html>
